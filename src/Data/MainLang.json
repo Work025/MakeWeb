@@ -1,0 +1,68 @@
+[
+    {
+        "code": "uz",
+        "welcome": "ga xush kelibsiz!",
+        "subtitle": "Bu platforma orqali siz web-sayt yaratish, kod yozish va IT dunyosini o‘rganasiz. Har bir dars — bir qadam rivoj sari 🚀",
+        "btnStart": "Darslarni boshlash",
+        "btnStartflip": "Boshlash",
+        "btndata": "Ko‘proq o‘rganish",
+        "features": [
+            {
+                "title": "Kod yozishni o‘rganing",
+                "desc": "HTML, CSS, JavaScript — asosiy web-texnologiyalarni amaliy misollar bilan o‘rganing."
+            },
+            {
+                "title": "Darslar va testlar",
+                "desc": "Har bir bo‘limda sizni interaktiv darslar va mini testlar kutmoqda!"
+            },
+            {
+                "title": "IT sari birgalikda!",
+                "desc": "Har kuni biroz o‘rganish orqali siz kuchli dasturchiga aylanasiz."
+            }
+        ]
+    },
+    {
+        "code": "ko",
+        "welcome": "— Karochi xush kebsan",
+        "subtitle": "Hulas buyo sanga IT ni o'rgatadi o'rgan masen nega kirdin unda 🚀",
+        "btnStart": "Ketu boshlimiz",
+        "btnStartflip": "Bos ",
+        "btndata": "Ko'pro bilish",
+        "features": [
+            {
+                "title": "Kod yozishni o‘rganing",
+                "desc": "HTML, CSS, JavaScript — asosiy web-texnologiyalarni amaliy misollar bilan o‘rganing."
+            },
+            {
+                "title": "Darslar va testlar",
+                "desc": "Har bir bo‘limda sizni interaktiv darslar va mini testlar kutmoqda!"
+            },
+            {
+                "title": "IT sari birgalikda!",
+                "desc": "Har kuni biroz o‘rganish orqali siz kuchli dasturchiga aylanasiz."
+            }
+        ]
+    },
+    {
+        "code": "ru",
+        "welcome": "— Добро пожаловать!",
+        "subtitle": "Изучайте, как создавать сайты, писать код и открывать мир IT. Каждый урок — шаг к развитию 🚀",
+        "btnStart": "Начать обучение",
+        "btnStartflip": "Начать",
+        "btndata": "Узнать больше",
+        "features": [
+            {
+                "title": "Учитесь писать код",
+                "desc": "Освойте HTML, CSS и JavaScript с помощью практических примеров."
+            },
+            {
+                "title": "Уроки и тесты",
+                "desc": "В каждом разделе вас ждут интерактивные уроки и мини-тесты!"
+            },
+            {
+                "title": "Вместе к IT!",
+                "desc": "Учитесь понемногу каждый день и станьте отличным разработчиком."
+            }
+        ]
+    }
+]

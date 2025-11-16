@@ -1,0 +1,10 @@
+{
+    "color": {
+        "description": "Matn rangini belgilaydi.",
+        "example": "p { color: red; }"
+    },
+    "display": {
+        "description": "Elementning ko‘rinish turini belgilaydi.",
+        "example": "div { display: flex; }"
+    }
+}

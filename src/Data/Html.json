@@ -1,0 +1,10 @@
+{
+    "h1": {
+        "description": "<h1> sarlavha elementidir. Eng katta sarlavha uchun ishlatiladi.",
+        "example": "<h1>Bu sarlavha</h1>"
+    },
+    "p": {
+        "description": "<p> paragraf matnlarini ifodalaydi.",
+        "example": "<p>Bu paragraf matni.</p>"
+    }
+}

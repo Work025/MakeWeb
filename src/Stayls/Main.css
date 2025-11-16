@@ -1,0 +1,240 @@
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9ff, #ffffff);
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-about {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-hero {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 2.8rem;
+    color: #0077ff;
+    font-weight: 800;
+}
+
+.home-title span {
+    color: #ff3b3b;
+}
+
+.home-subtitle {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0 30px;
+    max-width: 600px;
+}
+
+.home-btn {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 12px;
+    color: #fff;
+    background: linear-gradient(45deg, #0077ff, #00b0ff);
+    border: none;
+    perspective: 1000px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.home-btn .front,
+.home-btn .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.5s linear;
+    font-weight: 600;
+}
+
+.home-btn .back {
+    transform: rotateX(180deg);
+}
+
+.home-btn.flipped .front {
+    transform: rotateX(180deg);
+}
+
+.home-btn.flipped .back {
+    transform: rotateX(0deg);
+}
+
+.home-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.home-cards {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.home-card {
+    width: 280px;
+    min-height: 220px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 25px 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, #0077ff, #00b0ff, #ff3b3b);
+    opacity: 0.05;
+    transform: rotate(25deg);
+    pointer-events: none;
+}
+
+.home-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.home-card h3 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: #0077ff;
+}
+
+.home-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.home-card button {
+    background-color: transparent;
+    font-size: 0.95rem;
+    color: #ff3b3b;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.home-card button:hover {
+    color: #0077ff;
+}
+
+.article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .home-title {
+        font-size: 2.4rem;
+    }
+
+    .home-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-subtitle {
+        font-size: 1rem;
+    }
+
+    .home-card {
+        width: 45%;
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main {
+        padding: 30px 15px;
+    }
+
+    .home-title {
+        font-size: 1.6rem;
+    }
+
+    .home-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .home-card {
+        width: 100%;
+        min-height: 180px;
+        padding: 20px 15px;
+    }
+
+    .home-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-title {
+        font-size: 1.4rem;
+    }
+
+    .home-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .home-card {
+        padding: 15px 10px;
+    }
+}

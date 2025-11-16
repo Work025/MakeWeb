@@ -1,0 +1,7 @@
+{
+  "querySelector": "CSS selektor orqali DOM elementni tanlaydi.",
+  "addEventListener": "Elementga hodisa (event) biriktiradi, masalan 'click'.",
+  "getElementById": "Elementni ID orqali topadi.",
+  "setTimeout": "Belgilangan vaqt o‘tib funksiyani bajaradi.",
+  "setInterval": "Berilgan oraliqda funksiyani takrorlaydi."
+}

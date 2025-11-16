@@ -1,0 +1,32 @@
+[
+    {
+        "code": "uz",
+        "name": "Uzbek",
+        "flag": "🇺🇿",
+        "menu": {
+            "home": "ASOSIY",
+            "div": "BO'LIM",
+            "lesson": "DARS"
+        }
+    },
+    {
+        "code": "ru",
+        "name": "Русский",
+        "flag": "🇷🇺",
+        "menu": {
+            "home": "ГЛАВНАЯ",
+            "div": "БЛОК",
+            "lesson": "УРОК"
+        }
+    },
+    {
+        "code": "ko",
+        "name": "Ko'cha tili",
+        "flag": "uz",
+        "menu": {
+            "home": "Sho't san",
+            "div": "quti",
+            "lesson": "Bajar"
+        }
+    }
+]
